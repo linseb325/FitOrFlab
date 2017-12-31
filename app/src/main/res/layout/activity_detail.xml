@@ -11,7 +11,7 @@
     tools:context="com.example.linseb325.fitorflab.DetailActivity">
 
     <TextView
-        android:id="@+id/activityTitleTextView"
+        android:id="@+id/exerciseTitleTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -48,7 +48,70 @@
             android:id="@+id/checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
             android:text="Set 1"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:buttonTint="#ffffff" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Set 2"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:buttonTint="#ffffff" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Set 3"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:buttonTint="#ffffff" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Set 4"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:buttonTint="#ffffff" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Set 5"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:buttonTint="#ffffff" />
     </LinearLayout>
 </LinearLayout>
